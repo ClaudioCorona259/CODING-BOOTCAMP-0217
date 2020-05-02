@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
-<body>
-    
-</body>
+    <body>
+        <header>
+            <nav>
+                <ul class="navbar">
+                <li><a href="">CARRITO</a></li>
+                <li><a href="">FAVORITOS</a></li>
+                <li><a href="">INICIAR SESION</a></li>
+                <li><a href="">HOME</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <section class="contenedor">
+            <ul class="menu">
+                <li><a href="">HOMBRE</a></li>
+                <li><a href="">MUJER</a></li>
+                <li><a href="">NIÑOS</a></li>
+                <li><a href="">PROMOCIONES</a></li> 
+            </ul>
+        </section>
+     <section>
+        <div class="contenedorimg">
+            <div class="desliza">
+                <div class="numbertext">1 / 3</div>
+                <img src="./Imagenes/3276833.jpg" style="width:100%">
+                <div class="text">Caption One</div>
+            </div>
+  
+            <div class="desliza">
+                <div class="numbertext">2 / 3</div>
+                <img src="./Imagenes/3276833.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+  
+            <div class="desliza">
+                <div class="numbertext">3 / 3</div>
+                <img src="./Imagenes/3276833.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+  
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+  
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+     </section>
+        
+    </body>
 </html>
